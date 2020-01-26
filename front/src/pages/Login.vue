@@ -11,17 +11,17 @@
           </div>
         </div>
         <div class="login" v-if="login === true && registrar === false">
-            <q-input v-model="text" label="E-mail" filled/>
-            <q-input class="q-mt-md" v-model="text" label="Senha" filled/>
-            <q-btn color="primary" class="full-width q-mt-md" label="Entrar" unelevated/>
+            <q-input label="E-mail" filled/>
+            <q-input class="q-mt-md" label="Senha" filled/>
+            <q-btn color="primary" class="full-width q-mt-md" label="Entrar" to="/dashboard" unelevated/>
             <a href="#" class="q-mt-sm">Esqueci minha senha</a>
         </div>
         <div class="registrar" v-if="login === false && registrar === true">
-            <q-input v-model="text" label="Nome completo" filled/>
-            <q-input class="q-mt-md" v-model="text" label="E-mail" filled/>
-            <q-input class="q-mt-md" v-model="text" label="Senha" filled/>
-            <q-input class="q-mt-md" v-model="text" label="Confirme Senha" filled/>
-            <q-btn color="primary" class="full-width q-mt-md" label="Registrar" unelevated/>
+            <q-input label="Nome completo" filled/>
+            <q-input class="q-mt-md" label="E-mail" filled/>
+            <q-input class="q-mt-md" label="Senha" filled/>
+            <q-input class="q-mt-md" label="Confirme Senha" filled/>
+            <q-btn color="primary" class="full-width q-mt-md" label="Registrar" to="#" unelevated/>
         </div>
     </div>
   </q-page>

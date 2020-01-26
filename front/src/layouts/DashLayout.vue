@@ -66,7 +66,7 @@ const menuList = [
     icon: 'people',
     color: 'white',
     label: 'Meu Perfil',
-    to: '/1',
+    to: '/meu-perfil',
     separator: true,
     rule: 'guest'
   },
@@ -74,7 +74,7 @@ const menuList = [
     icon: 'school',
     color: 'white',
     label: 'Meus Cursos',
-    to: '/1',
+    to: '/meus-cursos',
     separator: true,
     rule: 'guest'
   },
@@ -82,7 +82,7 @@ const menuList = [
     icon: 'mail',
     color: 'white',
     label: 'Contate-nos',
-    to: '/1',
+    to: '/contate-nos',
     separator: true,
     rule: 'guest'
   },
@@ -90,7 +90,7 @@ const menuList = [
     icon: 'mdi-logout',
     color: 'white',
     label: 'Sair',
-    to: '/1',
+    to: '/',
     separator: true,
     rule: 'guest'
   }
